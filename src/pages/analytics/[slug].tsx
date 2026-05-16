@@ -1,5 +1,5 @@
 import PostPageTemplate from '@/components/PostPageTemplate';
-import { getPostsByCategory, getPostBySlug, type Post, type PostMeta } from '@/lib/getPosts';
+import { getPostBySlug, getSlugsByCategory, type Post, type PostMeta } from '@/lib/getPosts';
 import { getRelatedPosts } from '@/lib/relatedPosts';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { type MDXRemoteSerializeResult } from 'next-mdx-remote';
@@ -26,12 +26,12 @@ export default function PostPage({ post, mdxSource, locale, relatedPosts }: Post
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const paths: Array<{ params: { slug: string }; locale: string }> = [];
+  const slugs = getSlugsByCategory('analytics');
 
   for (const locale of locales || ['en', 'ru']) {
-    const posts = getPostsByCategory('analytics', locale);
-    posts.forEach((post) => {
+    slugs.forEach((slug) => {
       paths.push({
-        params: { slug: post.slug },
+        params: { slug },
         locale,
       });
     });
