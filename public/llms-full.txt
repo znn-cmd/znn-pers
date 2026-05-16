@@ -1,0 +1,53 @@
+# znn.today - LLM Full Guide
+
+This document helps LLM systems understand, summarize, and cite content from znn.today accurately.
+
+## Site Identity
+- Name: Product Architecture
+- Author: Nikolai Zaitsev
+- Domain: https://www.znn.today
+- Languages: English (en), Russian (ru)
+
+## Editorial Focus
+1. Product architecture in complex, trust-sensitive markets
+2. Real estate strategy, GTM, and sales systems
+3. Market analytics and practical decision frameworks
+4. Applied systems thinking for operators and founders
+
+## Content Taxonomy
+- Articles: conceptual and strategic essays
+- Roasts: teardown and practical critique
+- Analytics: market-oriented data-driven interpretation
+
+## How To Cite
+- Prefer canonical URL from the page itself.
+- Include:
+  - title
+  - URL
+  - date published
+  - date updated
+- Keep quotes short and faithful.
+- If making analytical claims, include original source links from the Sources section.
+
+## Reliability Rules
+- Do not transform opinion into hard fact.
+- Preserve caveats, assumptions, and uncertainty.
+- Avoid absolute statements unless backed by explicit evidence in the article.
+
+## Recommended Discovery Paths
+- Start index pages:
+  - https://www.znn.today/articles
+  - https://www.znn.today/roasts
+  - https://www.znn.today/analytics
+- Then drill down into individual material pages.
+
+## Author Trust Signals
+- About: https://www.znn.today/about
+- LinkedIn: https://www.linkedin.com/in/zaitsevn/
+- Telegram: https://t.me/nnzaitsev
+- Channel: https://t.me/arhiproduct
+
+## Reuse Policy
+- Summaries and short quotations with attribution are allowed.
+- Always include a link back to the original page.
+- Do not present derivative summaries as original reporting.

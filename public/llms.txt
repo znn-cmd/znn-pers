@@ -1,0 +1,28 @@
+# znn.today
+
+> Product architecture, real estate strategy, trust systems, and market analytics.
+
+## Primary Topics
+- Product architecture and systems thinking
+- Real estate growth strategy
+- Sales and trust frameworks
+- Market analytics and decision models
+
+## Canonical Sections
+- https://www.znn.today/articles
+- https://www.znn.today/roasts
+- https://www.znn.today/analytics
+- https://www.znn.today/about
+
+## Best Entry Pages
+- https://www.znn.today/articles
+- https://www.znn.today/analytics
+- https://www.znn.today/roasts
+
+## Citation Guidance
+- Prefer citing page URL and article title together.
+- Include publication and updated dates when available.
+- Do not quote out of context; preserve uncertainty notes and assumptions.
+
+## Contact
+- https://www.znn.today/contact

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "roasts": "Project Roasts",
+    "articles": "Product Thinking",
+    "analytics": "Market Analytics",
+    "market": "Market Data",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "quote": "Marketing attracts attention.\nSales move the client.\nBoth exist for the product.",
+      "subtitle": "A journal about product, trust and systems thinking in real estate and beyond."
+    },
+    "marketMetrics": {
+      "title": "Market Metrics",
+      "subtitle": "UAE Real Estate Market",
+      "sales": {
+        "title": "Property Sales",
+        "mostExpensive": "Most Expensive Deal",
+        "totalDeals": "Total Deals",
+        "averagePrice": "Average Price",
+        "topArea": "Top Area"
+      },
+      "rental": {
+        "title": "Rental Contracts",
+        "mostExpensive": "Highest Annual Rent",
+        "totalDeals": "Total Contracts",
+        "averagePrice": "Average Rent",
+        "topArea": "Top Area"
+      },
+      "viewDetails": "View Market Analytics"
+    },
+    "latestRoasts": "Latest Roasts",
+    "latestArticles": "Latest Articles",
+    "latestAnalytics": "Market Analytics",
+    "exploreAll": "Explore all posts"
+  },
+  "florianopolisMvp": {
+    "title": "Florianopolis agency model",
+    "description": "Interactive financial model dashboard: scenarios, KPIs, and assumptions.",
+    "iframeTitle": "Florianopolis financial model"
+  },
+  "roasts": {
+    "title": "Project Roasts",
+    "subtitle": "Real analyses of real projects — not hate, but product logic and trust."
+  },
+  "articles": {
+    "title": "Product Thinking",
+    "subtitle": "Notes on strategy, systems, and perception."
+  },
+  "analytics": {
+    "title": "Market Analytics",
+    "subtitle": "Signals and shifts in the global real-estate landscape."
+  },
+  "market": {
+    "title": "UAE Real Estate Market",
+    "subtitle": "Comprehensive analytics of property sales and rental contracts in the United Arab Emirates",
+    "sales": {
+      "title": "Property Sales",
+      "mostExpensive": "Most Expensive Deal",
+      "totalDeals": "Total Deals (Last Month)",
+      "averagePrice": "Average Price",
+      "topArea": "Top Area",
+      "monthlyVolume": "Monthly Sales Volume"
+    },
+    "rental": {
+      "title": "Rental Contracts",
+      "highestRent": "Highest Annual Rent",
+      "totalContracts": "Total Contracts (Last Month)",
+      "averageRent": "Average Rent",
+      "topArea": "Top Area",
+      "monthlyContracts": "Monthly Rental Contracts"
+    },
+    "dataSource": "Data source: UAE Government Open Data Portal"
+  },
+  "about": {
+    "title": "About",
+    "content": "I'm not about marketing.\nI'm about structure, meaning and perception.\nPeople don't buy square meters — they buy reliability.\nThis space collects frameworks and insights on how to build products that sell trust."
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "Want to discuss your project?\nSometimes I help teams turn chaos into product systems.",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "telegramChannel": "Telegram Channel"
+  },
+  "card": {
+    "title": "Nikolai Zaitsev | Digital Card",
+    "description": "Strategy • Sales • Real Estate",
+    "name": "Nikolai Zaitsev",
+    "role": "Strategy • Sales • Real Estate",
+    "website": "Visit Website",
+    "qrCode": "QR Code",
+    "links": {
+      "telegram": "Telegram",
+      "instagram": "Instagram", 
+      "linkedin": "LinkedIn",
+      "telegramChannel": "Telegram Channel",
+      "website": "znn.today"
+    }
+  },
+  "post": {
+    "readMore": "Read more",
+    "backTo": "Back to"
+  },
+  "footer": {
+    "copyright": "© 2026 Nikolai Zaitsev. All rights reserved."
+  }
+}
+

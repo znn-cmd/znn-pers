@@ -1,0 +1,69 @@
+# ZNN - Apache Configuration
+# ⚠️ ВАЖНО: Этот файл НЕ используется в текущей конфигурации проекта
+#
+# Текущий проект работает на Node.js с Nginx (см. HOSTINGER_DEPLOYMENT.md)
+# Этот .htaccess файл предназначен для альтернативного статического экспорта,
+# который требует изменения структуры проекта (удаление i18n).
+#
+# Если вы хотите использовать статический экспорт, см. раздел "Вариант 2"
+# в файле HOSTINGER_DEPLOYMENT.md
+
+# ===== Конфигурация для статического экспорта =====
+# (требует изменения next.config.js и структуры проекта)
+
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect www to non-www (optional - adjust to your preference)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Handle clean URLs - serve .html files without extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Handle directory index files
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$ $1/index.html [L]
+
+# Error Pages (optional)
+# ErrorDocument 404 /404.html
+
+# Compression - Gzip
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  
+  # CSS and JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  
+  # HTML
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>

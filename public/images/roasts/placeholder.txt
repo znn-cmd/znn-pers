@@ -1,0 +1,7 @@
+# Roasts Images
+
+Placeholder for roast images:
+- lumedge-homepage.png
+- startup-mistakes.png
+- trust-architecture.png
+

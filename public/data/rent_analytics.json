@@ -1,0 +1,1356 @@
+{
+  "lastMonth": {
+    "year": 2025,
+    "month": 9,
+    "mostExpensive": 5500000.0,
+    "totalDeals": 13532,
+    "averagePrice": 197886.19790127105,
+    "mostSoldArea": "Business Bay"
+  },
+  "monthlyData": [
+    {
+      "year": 2010,
+      "month": 1,
+      "label": "2010-01",
+      "count": 4024,
+      "total_amount": 1093277826.0
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "label": "2010-02",
+      "count": 133,
+      "total_amount": 128507716.0
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "label": "2010-03",
+      "count": 117,
+      "total_amount": 17969882.0
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "label": "2010-04",
+      "count": 107,
+      "total_amount": 14750912.0
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "label": "2010-05",
+      "count": 533,
+      "total_amount": 146778236.0
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "label": "2010-06",
+      "count": 158,
+      "total_amount": 26532207.0
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "label": "2010-07",
+      "count": 215,
+      "total_amount": 24518085.0
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "label": "2010-08",
+      "count": 158,
+      "total_amount": 23514573.0
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "label": "2010-09",
+      "count": 102,
+      "total_amount": 8396542.0
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "label": "2010-10",
+      "count": 790,
+      "total_amount": 98469861.0
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "label": "2010-11",
+      "count": 102,
+      "total_amount": 9999938.0
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "label": "2010-12",
+      "count": 152,
+      "total_amount": 15503826.0
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "label": "2011-01",
+      "count": 24217,
+      "total_amount": 15104455864.0
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "label": "2011-02",
+      "count": 602,
+      "total_amount": 53807686.0
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "label": "2011-03",
+      "count": 646,
+      "total_amount": 61672344.0
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "label": "2011-04",
+      "count": 521,
+      "total_amount": 37450402.0
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "label": "2011-05",
+      "count": 2261,
+      "total_amount": 214453379.0
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "label": "2011-06",
+      "count": 749,
+      "total_amount": 62116537.0
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "label": "2011-07",
+      "count": 944,
+      "total_amount": 145780228.0
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "label": "2011-08",
+      "count": 672,
+      "total_amount": 60794729.0
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "label": "2011-09",
+      "count": 422,
+      "total_amount": 36102880.0
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "label": "2011-10",
+      "count": 3540,
+      "total_amount": 294382515.0
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "label": "2011-11",
+      "count": 692,
+      "total_amount": 53765654.0
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "label": "2011-12",
+      "count": 779,
+      "total_amount": 94678920.0
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "label": "2012-01",
+      "count": 63678,
+      "total_amount": 32285537199.0
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "label": "2012-02",
+      "count": 2015,
+      "total_amount": 499134315.0
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "label": "2012-03",
+      "count": 1905,
+      "total_amount": 203320638.0
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "label": "2012-04",
+      "count": 1598,
+      "total_amount": 127334045.0
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "label": "2012-05",
+      "count": 6828,
+      "total_amount": 2680822192.0
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "label": "2012-06",
+      "count": 2012,
+      "total_amount": 169025027.0
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "label": "2012-07",
+      "count": 2662,
+      "total_amount": 382511655.0
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "label": "2012-08",
+      "count": 2694,
+      "total_amount": 249695080.0
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "label": "2012-09",
+      "count": 1411,
+      "total_amount": 133278403.0
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "label": "2012-10",
+      "count": 9212,
+      "total_amount": 779920883.0
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "label": "2012-11",
+      "count": 1840,
+      "total_amount": 155083347.0
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "label": "2012-12",
+      "count": 2082,
+      "total_amount": 159690636.0
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "label": "2013-01",
+      "count": 123854,
+      "total_amount": 42200001826.0
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "label": "2013-02",
+      "count": 4160,
+      "total_amount": 403973859.0
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "label": "2013-03",
+      "count": 4280,
+      "total_amount": 403200350.0
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "label": "2013-04",
+      "count": 3922,
+      "total_amount": 333572972.0
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "label": "2013-05",
+      "count": 13278,
+      "total_amount": 3224921076.0
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "label": "2013-06",
+      "count": 4348,
+      "total_amount": 414097075.0
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "label": "2013-07",
+      "count": 6076,
+      "total_amount": 588767210.0
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "label": "2013-08",
+      "count": 6062,
+      "total_amount": 508592165.0
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "label": "2013-09",
+      "count": 3247,
+      "total_amount": 309309297.0
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "label": "2013-10",
+      "count": 18831,
+      "total_amount": 1986702353.0
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "label": "2013-11",
+      "count": 4027,
+      "total_amount": 480963676.0
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "label": "2013-12",
+      "count": 4910,
+      "total_amount": 616784623.0
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "label": "2014-01",
+      "count": 171537,
+      "total_amount": 78700668904.0
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "label": "2014-02",
+      "count": 5987,
+      "total_amount": 1127866412.0
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "label": "2014-03",
+      "count": 5833,
+      "total_amount": 701052943.0
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "label": "2014-04",
+      "count": 5107,
+      "total_amount": 608512686.0
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "label": "2014-05",
+      "count": 17333,
+      "total_amount": 4203513015.0
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "label": "2014-06",
+      "count": 5984,
+      "total_amount": 979341855.0
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "label": "2014-07",
+      "count": 7997,
+      "total_amount": 6340817139.0
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "label": "2014-08",
+      "count": 7706,
+      "total_amount": 1000941343.0
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "label": "2014-09",
+      "count": 5063,
+      "total_amount": 687233671.0
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "label": "2014-10",
+      "count": 25582,
+      "total_amount": 64208253940.0
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "label": "2014-11",
+      "count": 5563,
+      "total_amount": 926154433.0
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "label": "2014-12",
+      "count": 6617,
+      "total_amount": 1318595060.0
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "label": "2015-01",
+      "count": 203297,
+      "total_amount": 188535765906.0
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "label": "2015-02",
+      "count": 6954,
+      "total_amount": 1261586857.0
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "label": "2015-03",
+      "count": 6641,
+      "total_amount": 1008086443.0
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "label": "2015-04",
+      "count": 5722,
+      "total_amount": 628142489.0
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "label": "2015-05",
+      "count": 20630,
+      "total_amount": 7992799447.0
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "label": "2015-06",
+      "count": 6393,
+      "total_amount": 885547660.0
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "label": "2015-07",
+      "count": 8876,
+      "total_amount": 1798476135.0
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "label": "2015-08",
+      "count": 8640,
+      "total_amount": 2301549318.0
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "label": "2015-09",
+      "count": 5297,
+      "total_amount": 805646674.0
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "label": "2015-10",
+      "count": 29355,
+      "total_amount": 10378550025.0
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "label": "2015-11",
+      "count": 6765,
+      "total_amount": 2715950157.0
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "label": "2015-12",
+      "count": 7744,
+      "total_amount": 1734220204.0
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "label": "2016-01",
+      "count": 206121,
+      "total_amount": 161826603406.0
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "label": "2016-02",
+      "count": 7437,
+      "total_amount": 1207979682.0
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "label": "2016-03",
+      "count": 7282,
+      "total_amount": 1464923515.0
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "label": "2016-04",
+      "count": 6184,
+      "total_amount": 815668940.0
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "label": "2016-05",
+      "count": 20790,
+      "total_amount": 6575547732.0
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "label": "2016-06",
+      "count": 7322,
+      "total_amount": 1776176053.0
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "label": "2016-07",
+      "count": 9801,
+      "total_amount": 3730980264.0
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "label": "2016-08",
+      "count": 9196,
+      "total_amount": 3333107983.0
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "label": "2016-09",
+      "count": 5426,
+      "total_amount": 945329832.0
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "label": "2016-10",
+      "count": 30824,
+      "total_amount": 10585949002.0
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "label": "2016-11",
+      "count": 7111,
+      "total_amount": 2441864181.0
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "label": "2016-12",
+      "count": 8023,
+      "total_amount": 1847533738.0
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "label": "2017-01",
+      "count": 223954,
+      "total_amount": 226324731907.0
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "label": "2017-02",
+      "count": 8494,
+      "total_amount": 2249984135.0
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "label": "2017-03",
+      "count": 7675,
+      "total_amount": 2914711103.0
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "label": "2017-04",
+      "count": 6912,
+      "total_amount": 3482733755.0
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "label": "2017-05",
+      "count": 23304,
+      "total_amount": 4678839887.0
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "label": "2017-06",
+      "count": 7695,
+      "total_amount": 1605697557.0
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "label": "2017-07",
+      "count": 10631,
+      "total_amount": 4376582197.0
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "label": "2017-08",
+      "count": 9262,
+      "total_amount": 1930783840.0
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "label": "2017-09",
+      "count": 5962,
+      "total_amount": 1093938530.0
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "label": "2017-10",
+      "count": 35153,
+      "total_amount": 19169879002.0
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "label": "2017-11",
+      "count": 7340,
+      "total_amount": 2399323472.0
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "label": "2017-12",
+      "count": 9323,
+      "total_amount": 2612473494.0
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "label": "2018-01",
+      "count": 243023,
+      "total_amount": 213076864390.0
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "label": "2018-02",
+      "count": 8693,
+      "total_amount": 1365014368.0
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "label": "2018-03",
+      "count": 8572,
+      "total_amount": 9844863358.0
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "label": "2018-04",
+      "count": 7123,
+      "total_amount": 1023970955.0
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "label": "2018-05",
+      "count": 25402,
+      "total_amount": 5790367253.0
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "label": "2018-06",
+      "count": 8241,
+      "total_amount": 3667260881.0
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "label": "2018-07",
+      "count": 10321,
+      "total_amount": 2815757014.0
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "label": "2018-08",
+      "count": 9496,
+      "total_amount": 1567961018.0
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "label": "2018-09",
+      "count": 6158,
+      "total_amount": 1506608519.0
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "label": "2018-10",
+      "count": 37950,
+      "total_amount": 19618082871.0
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "label": "2018-11",
+      "count": 8087,
+      "total_amount": 3407870333.0
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "label": "2018-12",
+      "count": 9369,
+      "total_amount": 2001238150.0
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "label": "2019-01",
+      "count": 248619,
+      "total_amount": 168710376501.0
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "label": "2019-02",
+      "count": 9037,
+      "total_amount": 1518632453.0
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "label": "2019-03",
+      "count": 8832,
+      "total_amount": 3613949722.0
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "label": "2019-04",
+      "count": 7763,
+      "total_amount": 2782963542.0
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "label": "2019-05",
+      "count": 26563,
+      "total_amount": 6896544488.0
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "label": "2019-06",
+      "count": 8351,
+      "total_amount": 4208280489.0
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "label": "2019-07",
+      "count": 10627,
+      "total_amount": 1745968303.0
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "label": "2019-08",
+      "count": 9477,
+      "total_amount": 1732278354.0
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "label": "2019-09",
+      "count": 6739,
+      "total_amount": 7221605455.0
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "label": "2019-10",
+      "count": 39764,
+      "total_amount": 14487209152.0
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "label": "2019-11",
+      "count": 8010,
+      "total_amount": 3284328941.0
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "label": "2019-12",
+      "count": 8805,
+      "total_amount": 1375895782.0
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "label": "2020-01",
+      "count": 247453,
+      "total_amount": 169710335983.0
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "label": "2020-02",
+      "count": 9498,
+      "total_amount": 1458892972.0
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "label": "2020-03",
+      "count": 8210,
+      "total_amount": 1246275468.0
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "label": "2020-04",
+      "count": 7299,
+      "total_amount": 1480206999.0
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "label": "2020-05",
+      "count": 28008,
+      "total_amount": 9481297212.0
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "label": "2020-06",
+      "count": 8438,
+      "total_amount": 2629180480.0
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "label": "2020-07",
+      "count": 10196,
+      "total_amount": 1711885396.0
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "label": "2020-08",
+      "count": 9329,
+      "total_amount": 2678605441.0
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "label": "2020-09",
+      "count": 6396,
+      "total_amount": 1014629711.0
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "label": "2020-10",
+      "count": 39747,
+      "total_amount": 7345300895.0
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "label": "2020-11",
+      "count": 7460,
+      "total_amount": 1155767425.0
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "label": "2020-12",
+      "count": 9532,
+      "total_amount": 2711243591.0
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "label": "2021-01",
+      "count": 268066,
+      "total_amount": 106808497323.0
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "label": "2021-02",
+      "count": 11956,
+      "total_amount": 1409660626.0
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "label": "2021-03",
+      "count": 10306,
+      "total_amount": 1230094124.0
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "label": "2021-04",
+      "count": 10113,
+      "total_amount": 2204040332.0
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "label": "2021-05",
+      "count": 33246,
+      "total_amount": 5241197767.0
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "label": "2021-06",
+      "count": 10457,
+      "total_amount": 1806198432.0
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "label": "2021-07",
+      "count": 13567,
+      "total_amount": 2311454391.0
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "label": "2021-08",
+      "count": 11494,
+      "total_amount": 1214915164.0
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "label": "2021-09",
+      "count": 8979,
+      "total_amount": 4202379726.0
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "label": "2021-10",
+      "count": 47576,
+      "total_amount": 7643873435.0
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "label": "2021-11",
+      "count": 9949,
+      "total_amount": 1397869861.0
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "label": "2021-12",
+      "count": 11062,
+      "total_amount": 1352926829.0
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "label": "2022-01",
+      "count": 291185,
+      "total_amount": 99735629004.0
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "label": "2022-02",
+      "count": 13960,
+      "total_amount": 1426332806.0
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "label": "2022-03",
+      "count": 12660,
+      "total_amount": 1419680216.0
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "label": "2022-04",
+      "count": 12636,
+      "total_amount": 1687055845.0
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "label": "2022-05",
+      "count": 39530,
+      "total_amount": 7101475899.0
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "label": "2022-06",
+      "count": 12645,
+      "total_amount": 1554001821.0
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "label": "2022-07",
+      "count": 16574,
+      "total_amount": 2024344994.0
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "label": "2022-08",
+      "count": 13741,
+      "total_amount": 1272398739.0
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "label": "2022-09",
+      "count": 10570,
+      "total_amount": 1626363699.0
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "label": "2022-10",
+      "count": 55357,
+      "total_amount": 11693744262.0
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "label": "2022-11",
+      "count": 11698,
+      "total_amount": 1044241704.0
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "label": "2022-12",
+      "count": 14099,
+      "total_amount": 1409704593.0
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "label": "2023-01",
+      "count": 309432,
+      "total_amount": 187563624086.0
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "label": "2023-02",
+      "count": 17139,
+      "total_amount": 4176213711.0
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "label": "2023-03",
+      "count": 15704,
+      "total_amount": 3113974787.0
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "label": "2023-04",
+      "count": 14673,
+      "total_amount": 1987789753.0
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "label": "2023-05",
+      "count": 43103,
+      "total_amount": 7832061196.0
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "label": "2023-06",
+      "count": 16241,
+      "total_amount": 2121155390.0
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "label": "2023-07",
+      "count": 18889,
+      "total_amount": 1903880294.0
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "label": "2023-08",
+      "count": 16147,
+      "total_amount": 1949944378.0
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "label": "2023-09",
+      "count": 13180,
+      "total_amount": 4220178427.0
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "label": "2023-10",
+      "count": 59990,
+      "total_amount": 9936221293.0
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "label": "2023-11",
+      "count": 15807,
+      "total_amount": 2062673163.0
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "label": "2023-12",
+      "count": 16719,
+      "total_amount": 2042206309.0
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "label": "2024-01",
+      "count": 313777,
+      "total_amount": 183362920612.0
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "label": "2024-02",
+      "count": 20362,
+      "total_amount": 2832086631.0
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "label": "2024-03",
+      "count": 18197,
+      "total_amount": 2511183624.0
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "label": "2024-04",
+      "count": 19672,
+      "total_amount": 2489216707.0
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "label": "2024-05",
+      "count": 49687,
+      "total_amount": 11320756183.0
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "label": "2024-06",
+      "count": 19796,
+      "total_amount": 2674685440.0
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "label": "2024-07",
+      "count": 21466,
+      "total_amount": 2821754443.0
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "label": "2024-08",
+      "count": 19180,
+      "total_amount": 1976457198.0
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "label": "2024-09",
+      "count": 18753,
+      "total_amount": 8710270356.0
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "label": "2024-10",
+      "count": 67006,
+      "total_amount": 15764745588.0
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "label": "2024-11",
+      "count": 18808,
+      "total_amount": 2578143135.0
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "label": "2024-12",
+      "count": 21760,
+      "total_amount": 6322192574.0
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "label": "2025-01",
+      "count": 249285,
+      "total_amount": 169296208102.0
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "label": "2025-02",
+      "count": 16681,
+      "total_amount": 2729036370.0
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "label": "2025-03",
+      "count": 17467,
+      "total_amount": 1994317240.0
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "label": "2025-04",
+      "count": 15983,
+      "total_amount": 2355730818.0
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "label": "2025-05",
+      "count": 36351,
+      "total_amount": 8181513989.0
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "label": "2025-06",
+      "count": 15114,
+      "total_amount": 8396937763.0
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "label": "2025-07",
+      "count": 18826,
+      "total_amount": 4420004546.0
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "label": "2025-08",
+      "count": 15781,
+      "total_amount": 1577398729.0
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "label": "2025-09",
+      "count": 13532,
+      "total_amount": 2677796030.0
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "label": "2025-10",
+      "count": 52277,
+      "total_amount": 30975989291.0
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "label": "2025-11",
+      "count": 15256,
+      "total_amount": 2179231068.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "label": "2025-12",
+      "count": 16906,
+      "total_amount": 4142283377.0
+    }
+  ]
+}

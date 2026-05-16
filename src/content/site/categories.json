@@ -1,0 +1,23 @@
+[
+  {
+    "id": "roasts",
+    "title_en": "Latest Roasts",
+    "title_ru": "Последние разборы",
+    "enabled": true,
+    "order": 1
+  },
+  {
+    "id": "articles",
+    "title_en": "Latest Articles",
+    "title_ru": "Последние статьи",
+    "enabled": true,
+    "order": 2
+  },
+  {
+    "id": "analytics",
+    "title_en": "Latest Analytics",
+    "title_ru": "Последняя аналитика",
+    "enabled": true,
+    "order": 3
+  }
+]

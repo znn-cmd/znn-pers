@@ -1,0 +1,7 @@
+# Analytics Images
+
+Placeholder for analytics images:
+- proptech-stats.png
+- bali-market-chart.png
+- trust-signals.png
+
