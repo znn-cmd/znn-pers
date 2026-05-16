@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { Children, type ReactNode } from 'react';
 import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import Layout from '@/components/Layout';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -9,8 +10,6 @@ import { formatDate, getTranslations } from '@/lib/i18n';
 import type { Post, PostMeta } from '@/lib/getPosts';
 import {
   extractFaqItems,
-  extractSectionBullets,
-  extractSources,
 } from '@/lib/contentQuality';
 import {
   generateArticleSchema,
@@ -28,6 +27,40 @@ interface PostPageTemplateProps {
   locale: string;
   category: Category;
   relatedPosts: PostMeta[];
+}
+
+function normalizeSectionTitle(title: string, locale: string): string {
+  const normalized = title.trim().toLowerCase().replace(/\s+/g, ' ');
+  const isRu = locale === 'ru';
+
+  if (normalized === 'tl;dr' || normalized === 'tl dr' || normalized === 'tldr') {
+    return isRu ? 'Коротко' : 'TL;DR';
+  }
+  if (
+    normalized === 'key takeaways' ||
+    normalized === 'key insights' ||
+    normalized === 'main takeaways'
+  ) {
+    return isRu ? 'Ключевые выводы' : 'Key Takeaways';
+  }
+  if (normalized === 'sources' || normalized === 'references') {
+    return isRu ? 'Источники' : 'Sources';
+  }
+  if (normalized === 'faq' || normalized === 'frequently asked questions') {
+    return isRu ? 'Частые вопросы' : 'FAQ';
+  }
+
+  return title;
+}
+
+function nodeToPlainText(node: ReactNode): string {
+  if (typeof node === 'string' || typeof node === 'number') {
+    return String(node);
+  }
+  if (Array.isArray(node)) {
+    return node.map((item) => nodeToPlainText(item)).join('');
+  }
+  return '';
 }
 
 function getCategoryLabel(locale: string, category: Category): string {
@@ -51,51 +84,7 @@ export default function PostPageTemplate({
   const publishedTime = post.date;
   const modifiedTime = post.dateModified || post.date;
 
-  const tldrBullets = extractSectionBullets(post.content, 'tldr').slice(0, 6);
-  const keyTakeaways = extractSectionBullets(post.content, 'takeaways').slice(0, 7);
   const faqItems = extractFaqItems(post.content).slice(0, 5);
-  const sources = extractSources(post.content).slice(0, 8);
-
-  const fallbackTldr = [
-    isRu ? `Материал о теме: ${post.title}.` : `This article covers: ${post.title}.`,
-    post.excerpt,
-    isRu
-      ? 'Ниже разобраны практические шаги, риски и выводы.'
-      : 'Below you will find practical steps, risks, and takeaways.',
-  ];
-
-  const fallbackTakeaways = [
-    isRu ? 'Опирайтесь на данные, а не на предположения.' : 'Use data-first decisions, not assumptions.',
-    isRu ? 'Проверяйте гипотезы на практике.' : 'Validate hypotheses in practice.',
-    isRu ? 'Смотрите на систему целиком: продукт, рынок, коммуникацию.' : 'Treat product, market, and communication as one system.',
-  ];
-
-  const fallbackFaq = [
-    {
-      question: isRu ? 'Для кого этот материал?' : 'Who is this article for?',
-      answer: isRu
-        ? 'Для специалистов, которые принимают продуктовые и стратегические решения.'
-        : 'For specialists making product and strategic decisions.',
-    },
-    {
-      question: isRu ? 'Есть ли практическое применение?' : 'Is this actionable?',
-      answer: isRu
-        ? 'Да, структура материала ориентирована на практическое внедрение.'
-        : 'Yes, the structure is focused on practical implementation.',
-    },
-    {
-      question: isRu ? 'Как использовать материал дальше?' : 'What should I do next?',
-      answer: isRu
-        ? 'Сопоставьте выводы статьи со своей текущей воронкой или продуктовой задачей.'
-        : 'Map the article takeaways to your current funnel or product task.',
-    },
-  ];
-
-  const fallbackSources = [
-    isRu
-      ? 'Авторский анализ, практический опыт и публично доступные рыночные данные.'
-      : 'Author analysis, practical experience, and publicly available market data.',
-  ];
 
   const structuredData: object[] = [
     generatePersonSchema(),
@@ -174,17 +163,6 @@ export default function PostPageTemplate({
           )}
         </motion.header>
 
-        <section className="mb-10 bg-neutral-50 border border-neutral-200 rounded-xl p-6">
-          <h2 className="text-2xl font-medium mb-4">TL;DR</h2>
-          <ul className="space-y-2 text-neutral-700">
-            {(tldrBullets.length > 0 ? tldrBullets : fallbackTldr).map((item) => (
-              <li key={item} className="leading-relaxed">
-                - {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -194,45 +172,15 @@ export default function PostPageTemplate({
           <MDXRemote
             {...mdxSource}
             components={{
+              h1: () => null,
+              h2: ({ children }) => (
+                <h2>{normalizeSectionTitle(nodeToPlainText(Children.toArray(children)), locale)}</h2>
+              ),
               PostImage,
               InlineImage,
             }}
           />
         </motion.div>
-
-        <section className="mb-10">
-          <h2 className="text-2xl font-medium mb-4">{isRu ? 'Ключевые выводы' : 'Key Takeaways'}</h2>
-          <ul className="space-y-2 text-neutral-700">
-            {(keyTakeaways.length > 0 ? keyTakeaways : fallbackTakeaways).map((item) => (
-              <li key={item} className="leading-relaxed">
-                - {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mb-10">
-          <h2 className="text-2xl font-medium mb-4">FAQ</h2>
-          <div className="space-y-4">
-            {(faqItems.length > 0 ? faqItems : fallbackFaq).map((item) => (
-              <article key={item.question} className="border border-neutral-200 rounded-lg p-4">
-                <h3 className="font-medium mb-2">{item.question}</h3>
-                <p className="text-neutral-700 leading-relaxed">{item.answer}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-medium mb-4">{isRu ? 'Источники' : 'Sources'}</h2>
-          <ul className="space-y-2 text-neutral-700">
-            {(sources.length > 0 ? sources : fallbackSources).map((item) => (
-              <li key={item} className="leading-relaxed">
-                - {item}
-              </li>
-            ))}
-          </ul>
-        </section>
 
         <section className="mb-12 bg-white border border-neutral-200 rounded-xl p-6">
           <h2 className="text-2xl font-medium mb-3">{isRu ? 'Об авторе' : 'About the author'}</h2>

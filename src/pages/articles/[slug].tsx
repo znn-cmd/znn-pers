@@ -4,6 +4,7 @@ import { getRelatedPosts } from '@/lib/relatedPosts';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
+import remarkGfm from 'remark-gfm';
 
 interface PostPageProps {
   post: Post;
@@ -55,7 +56,12 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     };
   }
 
-  const mdxSource = await serialize(post.content, { blockJS: false });
+  const mdxSource = await serialize(post.content, {
+    blockJS: false,
+    mdxOptions: {
+      remarkPlugins: [remarkGfm],
+    },
+  });
   const relatedPosts = getRelatedPosts(post, currentLocale);
 
   return {

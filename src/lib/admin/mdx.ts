@@ -1,5 +1,6 @@
 import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
+import remarkGfm from 'remark-gfm';
 import type { ContentLocale, PostFrontmatter } from './types';
 import { sanitizeFrontmatter, validateFrontmatter } from './contentSchema';
 
@@ -37,7 +38,12 @@ export async function buildPreviewSource(frontmatter: PostFrontmatter, content: 
   }
 
   try {
-    const mdxSource = await serialize(content, { blockJS: false });
+    const mdxSource = await serialize(content, {
+      blockJS: false,
+      mdxOptions: {
+        remarkPlugins: [remarkGfm],
+      },
+    });
     return { errors: [], mdxSource };
   } catch (error) {
     return {
